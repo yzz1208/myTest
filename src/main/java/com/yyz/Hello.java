@@ -9,5 +9,12 @@ public class Hello {
         System.out.println("master test");
         System.out.println("hot-fix test");
         System.out.println("pull test");
+
+        for(int i=0,j=5;i<j;i++){
+            System.out.println("a");
+            j=j-1;
+            i=i-1;
+        }
     }
 }
+
