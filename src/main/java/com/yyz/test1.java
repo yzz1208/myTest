@@ -39,5 +39,6 @@ public class test1 {
         Scanner scanner = new Scanner(System.in);
         String i = scanner.nextLine();
         System.out.println(i);
+        System.out.println("~~~~❥(^_-) ❥(^_-)❥(^_-)");
     }
 }
