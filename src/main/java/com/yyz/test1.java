@@ -3,6 +3,8 @@ package com.yyz;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
+
 /**
  * @author 48467
  * @version 1.0
@@ -14,6 +16,9 @@ public class test1 {
     public static void main(String[] args) {
 
         System.out.println("a");
+        Scanner scanner = new Scanner(System.in);
+        String i = scanner.nextLine();
+        System.out.println(i);
     }
 
     @Test
@@ -30,5 +35,9 @@ public class test1 {
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
+
+        Scanner scanner = new Scanner(System.in);
+        String i = scanner.nextLine();
+        System.out.println(i);
     }
 }
