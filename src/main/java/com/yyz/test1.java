@@ -36,9 +36,31 @@ public class test1 {
         System.out.println(d);
         System.out.println(e);
 
-        Scanner scanner = new Scanner(System.in);
-        String i = scanner.nextLine();
-        System.out.println(i);
         System.out.println("~~~~❥(^_-) ❥(^_-)❥(^_-)");
+
+        for(int i =0;i<4;i++) {
+            for (int j = 0; j < 7; j++) {
+
+                if (i+j==3||j-i==3) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("#");
+                }
+
+            }
+            System.out.println();
+        }
+        for(int i =3;i>0;i--) {
+            for (int j = 0; j < 7; j++) {
+
+                if (i+j==4||j-i==2) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("#");
+                }
+            }
+            System.out.println();
+        }
+
     }
 }
